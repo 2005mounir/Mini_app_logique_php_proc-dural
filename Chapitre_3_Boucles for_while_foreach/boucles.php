@@ -66,8 +66,6 @@ if($cars[$l] == "bmw") break;
 $cars2 = ["audi","bmw","mercedes","lombo","golf"];
 
 for($l = 0 ; $l < count($cars2) ; $l++){
-
-
 if($cars2[$l] == "bmw") continue;
 echo $cars2[$l] . "<br>";
 
