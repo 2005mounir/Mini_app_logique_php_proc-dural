@@ -27,7 +27,7 @@ if(empty($nom) || empty($note1) || empty($note2) || empty($note3)){
 
 foreach($notes as $note){
 
-if($note < 0 || $note >20){
+if($note <= 0 || $note >20){
     echo '  One of the marks is invalid '.'<br>' ; 
  } 
 }
