@@ -136,5 +136,31 @@
                 "Surpoids"
             ]
         }
+    },
+    {
+        "id": "PAT-20260217-1632",
+        "patient": {
+            "nom": "MOUNIR MAIMOUNI",
+            "prenom": "MAIMOUNI",
+            "datedenaissance": "2005-02-02",
+            "sexe": "homme",
+            "telephone": "0699999999",
+            "age": 21
+        },
+        "consultation": {
+            "date": "2026-02-14",
+            "temperature": "37",
+            "tension_sys": "80",
+            "tension_dia": "60",
+            "poids": "70",
+            "taille": "1",
+            "IMC": 70,
+            "symptomes": [
+                "Fi\u00e8vre"
+            ],
+            "alertes": [
+                "Surpoids"
+            ]
+        }
     }
 ]

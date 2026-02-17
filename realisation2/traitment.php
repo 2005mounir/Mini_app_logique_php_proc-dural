@@ -100,8 +100,7 @@ $consultation = [
 saveConsultation($consultation);
 
 header("Location: index.php?success=1");
-exit;
-
+exit();
 
 
 
