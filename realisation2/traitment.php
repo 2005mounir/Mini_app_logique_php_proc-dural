@@ -72,7 +72,7 @@ $alertes = detectAlertes($temperature,$tension_sys,$tension_dia,$IMC);
 
 // Prépare un tableau associatif pour stocker toutes les informations du patient et de la consultation
 $consultation = [
-    "id" => "PAT-".date('Ymd')."-".rand(1000,9999),
+    "id" => "PAT-".rand(1000,9999),
     "patient" => [
         "nom"=>$nom,
         "prenom"=>$prenom,
