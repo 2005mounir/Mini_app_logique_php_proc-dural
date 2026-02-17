@@ -1,0 +1,140 @@
+[
+    {
+        "id": "PAT-20260211-2822",
+        "patient": {
+            "nom": "MOUNIR MAIMOUNI",
+            "prenom": "MAIMOUNI",
+            "datedenaissance": "2005-08-14",
+            "sexe": "homme",
+            "telephone": "0699999999",
+            "age": 20
+        },
+        "consultation": {
+            "date": "2005-08-14",
+            "temperature": "37",
+            "tension_sys": "80",
+            "tension_dia": "60",
+            "poids": "70",
+            "taille": "1",
+            "IMC": 70,
+            "symptomes": [
+                "Fatigue"
+            ],
+            "alertes": [
+                "Surpoids"
+            ]
+        }
+    },
+    {
+        "id": "PAT-20260217-2913",
+        "patient": {
+            "nom": "MOUNIR MAIMOUNI",
+            "prenom": "MAIMOUNI",
+            "datedenaissance": "2005-02-02",
+            "sexe": "homme",
+            "telephone": "0699999999",
+            "age": 21
+        },
+        "consultation": {
+            "date": "2026-02-14",
+            "temperature": "37",
+            "tension_sys": "80",
+            "tension_dia": "60",
+            "poids": "70",
+            "taille": "1",
+            "IMC": 70,
+            "symptomes": [
+                "Fi\u00e8vre",
+                "Toux",
+                "Fatigue",
+                "Douleur"
+            ],
+            "alertes": [
+                "Surpoids"
+            ]
+        }
+    },
+    {
+        "id": "PAT-20260217-6607",
+        "patient": {
+            "nom": "MOUNIR MAIMOUNI",
+            "prenom": "MAIMOUNI",
+            "datedenaissance": "2005-02-02",
+            "sexe": "homme",
+            "telephone": "0699999999",
+            "age": 21
+        },
+        "consultation": {
+            "date": "2026-02-14",
+            "temperature": "37",
+            "tension_sys": "80",
+            "tension_dia": "60",
+            "poids": "50",
+            "taille": "1",
+            "IMC": 50,
+            "symptomes": [
+                "Toux",
+                "Fatigue",
+                "Douleur"
+            ],
+            "alertes": [
+                "Surpoids"
+            ]
+        }
+    },
+    {
+        "id": "PAT-20260217-2993",
+        "patient": {
+            "nom": "MOUNIR MAIMOUNI",
+            "prenom": "MAIMOUNI",
+            "datedenaissance": "2005-02-02",
+            "sexe": "homme",
+            "telephone": "0699999999",
+            "age": 21
+        },
+        "consultation": {
+            "date": "2026-02-14",
+            "temperature": "37",
+            "tension_sys": "80",
+            "tension_dia": "60",
+            "poids": "70",
+            "taille": "1.5",
+            "IMC": 31.11111111111111,
+            "symptomes": [
+                "Toux",
+                "Fatigue",
+                "Douleur"
+            ],
+            "alertes": [
+                "Surpoids"
+            ]
+        }
+    },
+    {
+        "id": "PAT-20260217-1867",
+        "patient": {
+            "nom": "MOUNIR MAIMOUNI",
+            "prenom": "MAIMOUNI",
+            "datedenaissance": "2005-02-02",
+            "sexe": "homme",
+            "telephone": "0699999999",
+            "age": 21
+        },
+        "consultation": {
+            "date": "2026-02-14",
+            "temperature": "37",
+            "tension_sys": "120",
+            "tension_dia": "50",
+            "poids": "70",
+            "taille": "1.5",
+            "IMC": 31.11111111111111,
+            "symptomes": [
+                "Toux",
+                "Fatigue"
+            ],
+            "alertes": [
+                "Surpoids"
+            ]
+        }
+    }
+]

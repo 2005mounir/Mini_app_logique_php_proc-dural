@@ -10,7 +10,7 @@
     
 <header>
     <h1>Calculateur de la moyenne scolaire</h1>
-    <p>Bienvenue sur la plateforme de calcul de la moyenne</p>
+    <p>Bienvenue sur la plateforme de calcul de la moyenne</p>v
 </header>
 
 
