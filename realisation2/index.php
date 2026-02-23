@@ -23,7 +23,7 @@ if(file_exists($file)){
 <body>
 
 <?php if(isset($_GET['success'])): ?>
-    <p style="color:green;">Consultation ajoutée avec succès ✅</p>
+    <p style="color:green;">Consultation ajoutée avec succès </p>
 <?php endif; ?>
 
 <table border="1" cellpadding="5">

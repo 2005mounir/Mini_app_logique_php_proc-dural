@@ -7,8 +7,6 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(assets/image.jpg);
-    background-size: cover;
     min-height: 100vh;
     padding: 2rem 1rem;
     line-height: 1.6;
@@ -236,7 +234,6 @@ br {
   --radius-pill: 50px;
 }
 
-/* ── Reset & Base ──────────────────────────────────────── */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -341,7 +338,7 @@ body::before {
   flex-shrink: 0;
 }
 
-/* ── Carte tableau ─────────────────────────────────────── */
+
 .card {
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(14px);
@@ -352,7 +349,7 @@ body::before {
   animation: fadeUp 0.7s ease 0.1s both;
 }
 
-/* ── Barre supérieure de la carte ──────────────────────── */
+
 .card-toolbar {
   display: flex;
   align-items: center;
@@ -375,7 +372,7 @@ body::before {
 
 .card-title::before { content: '🌸'; font-size: 1rem; }
 
-/* ── Tableau ───────────────────────────────────────────── */
+
 .table-wrap {
   overflow-x: auto;
 }
@@ -386,10 +383,10 @@ table {
   border: none;
 }
 
-/* Supprime l'ancienne bordure HTML */
+
 table[border] { border: none; }
 
-/* ── En-têtes ──────────────────────────────────────────── */
+
 thead tr {
   background: linear-gradient(90deg, var(--rose-light), #fce4ed, var(--rose-light));
 }
@@ -407,9 +404,9 @@ thead th {
   border-bottom: 2px solid var(--rose-border);
 }
 
-/* ── Lignes ────────────────────────────────────────────── */
+
 tbody tr {
-  border-bottom: 1px solid rgba(232,130,154,0.10);
+  border-bottom: 4px solid rgba(21, 19, 20, 0.1);
   transition: background 0.2s ease, transform 0.15s ease;
 }
 
@@ -427,7 +424,7 @@ tbody td {
   vertical-align: middle;
 }
 
-/* ── Colonne Patient ───────────────────────────────────── */
+
 .patient-cell {
   display: flex;
   align-items: center;
@@ -455,7 +452,7 @@ tbody td {
   color: var(--text-dark);
 }
 
-/* ── Badge Date ────────────────────────────────────────── */
+
 .badge-date {
   display: inline-flex;
   align-items: center;
@@ -471,7 +468,7 @@ tbody td {
 
 .badge-date::before { content: '📅'; font-size: 0.8rem; }
 
-/* ── Badge Température ─────────────────────────────────── */
+
 .badge-temp {
   display: inline-flex;
   align-items: center;
@@ -487,14 +484,12 @@ tbody td {
 
 .badge-temp::before { content: '🌡️'; font-size: 0.8rem; }
 
-/* Fièvre (≥ 38°C) */
 .badge-temp.fever {
   background: rgba(255,210,210,0.5);
   border-color: rgba(255,130,130,0.5);
   color: #b02020;
 }
 
-/* ── Badge IMC ─────────────────────────────────────────── */
 .badge-imc {
   display: inline-flex;
   align-items: center;
@@ -510,7 +505,6 @@ tbody td {
 
 .badge-imc::before { content: '⚖️'; font-size: 0.8rem; }
 
-/* ── Badge Alertes ─────────────────────────────────────── */
 .badge-alert-none {
   display: inline-flex;
   align-items: center;
@@ -553,7 +547,6 @@ tbody td {
 
 .badge-alert-danger::before { content: '⚠️'; }
 
-/* ── État vide ─────────────────────────────────────────── */
 .empty-state {
   text-align: center;
   padding: 60px 20px;
@@ -563,7 +556,6 @@ tbody td {
 .empty-state span { font-size: 3rem; display: block; margin-bottom: 14px; }
 .empty-state p    { font-size: 0.9rem; }
 
-/* ── Lien / Bouton Ajouter ─────────────────────────────── */
 .btn-add {
   display: inline-flex;
   align-items: center;
@@ -604,7 +596,6 @@ tbody td {
 
 .btn-add:active { transform: translateY(0); }
 
-/* ── Séparateur entre table et bouton ──────────────────── */
 .card-footer {
   padding: 18px 28px;
   border-top: 1.5px solid var(--rose-border);
@@ -613,7 +604,6 @@ tbody td {
   background: rgba(252,238,243,0.3);
 }
 
-/* ── Statistiques ──────────────────────────────────────── */
 .stats-row {
   display: flex;
   gap: 16px;
@@ -658,7 +648,7 @@ tbody td {
   letter-spacing: 0.8px;
 }
 
-/* ── Animations ────────────────────────────────────────── */
+
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(18px); }
   to   { opacity: 1; transform: translateY(0); }
@@ -669,7 +659,6 @@ tbody td {
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Responsive ────────────────────────────────────────── */
 @media (max-width: 700px) {
   .page-header h1  { font-size: 1.8rem; }
   .card-toolbar    { padding: 14px 16px 12px; }
